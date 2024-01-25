@@ -108,7 +108,7 @@ To perform tasks on textual data, it needs to be converted into a numerical form
 
 ![Overall Results](https://github.com/Ahmed-Mostafa-88/Mail_Spam_Classification/assets/144740078/139db57f-3ec5-439f-a062-d86a4f07fac7)
 
-### 5.1 Naïve Bayes
+### 5.1 Naïve Bayes <a name="naïve-bayes"></a>
 Naive Bayes Accuracy:
 - Accuracy: 97.07%
   - This percentage indicates the overall correctness of the predictions made by the Naive Bayes classifier on the test dataset.
@@ -128,14 +128,14 @@ Classification Report:
 
 ![Naïve Bayes Results](https://github.com/Ahmed-Mostafa-88/Mail_Spam_Classification/assets/144740078/cd624055-c8f9-49fc-8236-8a3ba006ec5b)
 
-### 5.2 Logistic Regression
+### 5.2 Logistic Regression <a name="logistic-regression"></a>
 - The Logistic Regression model achieved a high accuracy of 98.10% on the test dataset, slightly outperforming the Naive Bayes classifier.
 - For both "Not spam" and "Spam" classes, the precision, recall, and F1-score values are high, indicating the model's ability to correctly identify both classes with high accuracy and efficiency.
 - The classification report suggests that the Logistic Regression model performs exceptionally well in distinguishing between "Not spam" and "Spam" messages, with high precision and recall values for both classes.
 
 ![Logistic Regression Results](https://github.com/Ahmed-Mostafa-88/Mail_Spam_Classification/assets/144740078/c87855fc-57e7-487c-8dcc-e71735eb9a4e)
 
-### 5.3 Simple RNN
+### 5.3 Simple RNN <a name="simple-rnn"></a>
 - The model shows significant improvement in accuracy and reduction in loss across epochs, indicating the model's learning and improvement over successive iterations.
 - The training accuracy consistently increases while the loss decreases with each epoch, demonstrating that the model is learning to predict better on the training data.
 - Validation accuracy and loss also show improvements, suggesting that the model is generalizing well to unseen data (validation set) and not overfitting.
@@ -144,7 +144,7 @@ Classification Report:
 
 ![Simple RNN Results](https://github.com/Ahmed-Mostafa-88/Mail_Spam_Classification/assets/144740078/aff10ed5-b422-495c-8e36-f39897117c4a)
 
-### 5.4 LSTM
+### 5.4 LSTM <a name="lstm"></a>
 - The initial training epoch starts with a lower validation accuracy, which gradually increases over epochs.
 - There's an increase in training accuracy over epochs, indicating that the model is learning and improving on the training data.
 - Validation accuracy generally shows good performance, indicating the model's ability to generalize to unseen data.
